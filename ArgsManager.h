@@ -24,7 +24,7 @@
 				uint32_t ImageAsize;  // Image A length
 				uint32_t ImageBsize;  // Image B length
 
-				char *PathToOutputImage;  // Diff image
+				const char *PathToOutputImage;  // Path to diff image
 				bool Verbose;  // Print lots of text or not
 				bool LuminanceOnly;  // Only consider luminance; ignore chroma channels in the comparison.
 				bool Scale;         // Scale images to match each other's dimensions.
